@@ -1,0 +1,101 @@
+/* BIG TABLETS to 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%; /* Ocuppied the whole width of the screen*/
+        padding: 0 2%;
+    }
+    
+    /* Styles all the rows*/
+    .row { padding: 0 2%; }
+
+}
+
+/* SMALL TABLETS TO BIG TABLES FROM 768px to 1023 px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px;}
+    section {padding: 50px;}
+    .row { padding: 0 2%; }
+    
+    h3 { font-size: 100%; }
+    .text-description { font-size: 80%; text-align: center }
+
+}
+
+@media only screen and (max-width: 866px) {
+   
+    .main-nav { display: none;}
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        float: left;
+    }
+    
+    .main-nav li {
+        display: block;
+        text-align: center;
+        font-size: 130%;
+        padding: 5px;
+    }
+    
+    .main-nav li .main-nav li a {
+        display: block;
+    }
+    
+    .btn-login, .btn-signup {
+        text-align: center;
+    }
+}
+
+/* TARGETS DEVICES LIKE SMALLER TABLETS SMALLER THAN IPAD (481pxpx - 767) */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px;}
+    section {padding: 30px 0;}
+    
+    .row, .hero-text-box  { padding: 0 4%; }
+    
+    h1 { font-size: 150%; /*Translates to 35px*/ }
+    
+    .btn:link, .btn:visited {
+        padding: 15px 15px;
+        font-weight: 500;
+        font-size: 100%;
+    }
+    
+    /*.main-nav {display: none;}*/
+    ./* MOBILE NAV ICON*/
+   /* .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        float: left;
+    }
+    */
+    
+    .box img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .service-description { font-size: 80%; }
+    
+    .footer-nav { font-size: 60%; text-align: center}
+
+    .footer-nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    footer p { font-size: 70%; }
+    
+}
+
+/* DEVICES WHICH ARE LESS OR EQUAL TO 480PX (0 - 480px) */
+@media only screen and (max-width: 480px) {
+    section {padding: 25px 0;}
+    
+    .social-icons { float: left; }
+    
+    .social-icons li { margin-top: 10%; }
+    
+    .btn-delivery:link, .btn-delivery:visited { margin: 15px 0; }
+
+}
